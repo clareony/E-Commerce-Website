@@ -1,0 +1,75 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Links */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form Elements */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Colors */
+:root {
+  --primary-color: #333;
+  --secondary-color: #555;
+  --accent-color: #ff4081;
+  --background-color: #f4f4f4;
+}

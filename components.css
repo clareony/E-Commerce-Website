@@ -1,0 +1,85 @@
+/* Components Styles */
+
+/* Product Cards */
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card img {
+  width: 50%;
+  height: 50%;
+}
+.product-grid img {
+  width: 100%; /* Image will take up the full width of its grid container */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the entire area without distortion */
+  border-radius: 5px; /* Optional: gives a slight rounding to the corners */
+}
+.product-card h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.product-card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-card .btn {
+  margin: 15px 0;
+}
+
+/* Hover Effects */
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Forms */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: var(--secondary-color);
+}
